@@ -1,0 +1,16 @@
+# Discord username rules
+length: 4
+
+# Valid Discord username characters:
+# a-z, 0-9, underscore and period
+characters: "abcdefghijklmnopqrstuvwxyz0123456789_."
+
+# Don't generate usernames containing ".."
+allow_consecutive_periods: false
+
+# How many candidates to generate per GitHub Actions run
+candidates_per_run: 100
+
+# Discord webhook notifications
+webhook:
+  enabled: true
